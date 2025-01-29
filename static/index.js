@@ -12,7 +12,7 @@ document.getElementById("predictionForm").addEventListener("submit", async (e) =
     };
 
     // Send POST request to the API
-    const response = await fetch("http://127.0.0.1:8000/predict", {
+    const response = await fetch("https://medical-insurance-cost-prediction-b9kw.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
