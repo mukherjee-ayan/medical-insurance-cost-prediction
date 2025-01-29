@@ -1,0 +1,36 @@
+:root {
+    --light: #F2EFE7;
+    --darker-light: #9ACBD0;
+    --bg: #2973B2;
+    --button: #48A6A7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem;
+    color: var(--light);
+    background-color: var(--bg);
+}
+form {
+    max-width: 35%;
+    margin: auto;
+}
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+    border-radius: 1rem;
+    border-width: 0;
+    color: var(--bg);
+}
+button {
+    background-color: var(--button);
+    width: 100%;
+    color: var(--light);
+    margin: 3.75rem 1.25rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: cadetblue;
+}
